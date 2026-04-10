@@ -1138,6 +1138,22 @@
 ///@{
 /// Model of the `RIG_SIMPLECAT` backend family.
 #define RIG_MODEL_SIMPLECAT RIG_MAKE_MODEL(RIG_SIMPLECAT, 1)
+
+/*
+ * HARRIS
+ */
+/** The `HARRIS` family. */
+#define RIG_HARRIS 42
+/** Used in register.c for the `be_name`. */
+#define RIG_BACKEND_HARRIS "harris"
+
+/**
+ * \name HARRIS
+ * HARRIS models.
+ */
+///@{
+/// Model of the `RIG_HARRIS` backend family.
+#define RIG_MODEL_PRC138 RIG_MAKE_MODEL(RIG_HARRIS, 1)
 ///@}
 
 /** Convenience type definition for rig model. */
