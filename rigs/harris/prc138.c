@@ -34,7 +34,7 @@ struct rig_caps prc138_caps = {
     .rig_model          = RIG_MODEL_PRC138,
     .model_name         = "PRC-138",
     .mfg_name           = "Harris",
-    .version            = "1.0.6",
+    .version            = "20260411",
     .port_type          = RIG_PORT_SERIAL,
     
     /* Frequency Ranges with correct brace nesting */
